@@ -1,4 +1,5 @@
-#include "_putchar.h"
+#include "main.h"
+
 /**
  * main = entry point.
  * Description: program starts and ends here.
@@ -6,7 +7,7 @@
  */
 int main(void)
 {
-	char text[9] = "_putchar"
+	char text[9] = "main.h"
 		int i;
 	for (i =0; i < 9; I++)
 	{
