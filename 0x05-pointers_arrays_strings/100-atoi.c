@@ -19,10 +19,6 @@ int _atoi(char *s)
 		}
 		if (s[i] == '-' && is_num == 0)
 		{
-			one *= -1;
-		}
-		if (s[i] >= '0' && s[i] <= '9')
-		{
 			if (is_num == 0)
 			{
 				is_num = 1;
@@ -30,6 +26,7 @@ int _atoi(char *s)
 				if (one < 0)
 					num *= one;
 			}
+			else
 			{
 				num *= 10;
 				if (num < 0)
