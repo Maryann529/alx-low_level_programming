@@ -1,20 +1,30 @@
 #include "main.h"
 
 /**
- * _strncat - concats two strings given bit count of string to add..
- * @dest: string to add to and return.
- * @src: string to concat onto dest.
- * @n: length of string to be added.
- * Return: dest.
+ * _strcat - concatenates two strings
+ * @dest: string to appen to
+ * @src: string to add
+ *
+ * Return: a pointer to the resulting string
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
-	
-	for (i = 0; dest[i] != '\0'; ++i)
-		;
-	for (j = 0; j < n && src[j] != '\0'; ++j, ++i)
+
+	i = 0;
+	j = 0;
+
+	while (dest[i] != '\0')
+		i++;
+
+	while (src[j] != '\0')
+	{
 		dest[i] = src[j];
+		j++;
+		i++;
+	}
+
 	dest[i] = '\0';
+
 	return (dest);
 }
