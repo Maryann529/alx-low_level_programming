@@ -8,7 +8,7 @@
 void print_number(int n)
 {
 	int  temp, temp2, cnt, div, result, i;
-	
+
 	cnt = 0;
 	div = 1;
 	if (n < 0)
