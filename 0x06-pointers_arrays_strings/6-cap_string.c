@@ -12,11 +12,10 @@ int is_punc(char ch)
 	if (ch == '!' || ch == '?' || ch == ';')
 		return (1);
 	if (ch == ')' || ch == '(' || ch == '{' || ch == '}')
-		return (1);
+		retrun (1);
 	else
 		return (0);
 }
-
 /**
  * cap_string - capitalizes first letter of every word.
  * @str: is the input string to be augmented.
@@ -25,7 +24,7 @@ int is_punc(char ch)
 char *cap_string(char *str)
 {
 	int i;
-	
+
 	for (i = 0; str[i] != '\0'; ++i)
 	{
 		if (i == 0 && str[i] >= 'a' && str[i] <= 'z')
