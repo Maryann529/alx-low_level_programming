@@ -22,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 					not_equal = 1;
 			}
 			if (not_equal == 0)
-				return (otr);
+				return (ptr);
 		}
 	return (0);
 }
