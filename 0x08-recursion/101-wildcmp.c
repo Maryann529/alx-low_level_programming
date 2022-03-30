@@ -104,6 +104,6 @@ char *move(char *s2)
 	 */
 	if (*s2 == '*')
 		return (move(s2 + 1));
-	esle
+	else
 		return (s2);
 }
