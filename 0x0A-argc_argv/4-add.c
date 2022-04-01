@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - adds positive numbers.
  * @argc: is number of args.
