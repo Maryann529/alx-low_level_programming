@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 int _atoi(char *s);
 int _strlen(char *s);
