@@ -3,7 +3,7 @@
 #include "dog.h"
 
 /**
- * preint_dog - Prints all the date of the dog
+ * print_dog - Prints all the data of a dog
  * @d: A dog structure
  *
  * Return: Nothing
