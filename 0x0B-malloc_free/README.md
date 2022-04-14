@@ -17,7 +17,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 * Returns `NULL` if size = `0`
 * Returns a pointer to the array, or `NULL` if it fails
 
-**Solution:** [0-create_array.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
+**Solution:** [0-create_array.c](https://github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 0-main.c 
@@ -92,7 +92,7 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 * Returns `NULL` if str = NULL
 * On success, the `_strdup` function returns a pointer to the duplicated string. It returns `NULL` if insufficient memory was available
 
-**Solution:** [1-strdup.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c)
+**Solution:** [1-strdup.c](https://github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 1-main.c
@@ -132,7 +132,7 @@ Write a function that concatenates two strings.
 * if `NULL` is passed, treat it as an empty string
 * The function should return `NULL` on failure
 
-**Solution:** [2-str_concat.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c)
+**Solution:** [2-str_concat.c](https://github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 2-main.c
@@ -172,7 +172,7 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 * The function should return `NULL` on failure
 * If `width` or `height` is `0` or negative, return `NULL`
 
-**Solution:** [3-alloc_grid.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c)
+**Solution:** [3-alloc_grid.c](https://github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 3-main.c
@@ -244,7 +244,7 @@ Write a function that frees a 2 dimensional grid previously created by your `all
 * Prototype: `void free_grid(int **grid, int height);`
 * Note that we will compile with your `alloc_grid.c` file. Make sure it compiles.
 
-**Solution:** [4-free_grid.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c)
+**Solution:** [4-free_grid.c](https//:github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 4-main.c
@@ -333,7 +333,7 @@ Write a function that concatenates all the arguments of your program.
 * Returns a pointer to a new string, or `NULL` if it fails
 * Each argument should be followed by a `\n` in the new string
 
-**Solution:** [5-argstostr.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x0B-malloc_free/5-argstostr.c)
+**Solution:** [5-argstostr.c](https://github.com/Maryann529/alx-low_level_programming/blob/master/0x0B-malloc_free/5-argstostr.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$ cat 5-main.c
@@ -364,3 +364,8 @@ I
 will
 show you
 how
+how
+great
+I
+am
+$ amonkeyprogrammer@ubuntu:~/0x0a. malloc, free$
