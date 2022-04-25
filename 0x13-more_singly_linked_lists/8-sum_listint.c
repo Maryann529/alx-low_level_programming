@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "lisis.h"
 
 /**
@@ -8,14 +9,16 @@
  */
 int sum_listint(listint_t *head)
 {
-	int sum = 0;
-	listint_t *temp = head;
+	int amount = 0;
 
-	while (temp)
+	if (head)
 	{
-		sum += temp->n;
-		temp = temp->next;
+		while (head)
+		{
+			amount += head->n;
+			head = head->next;
+		}
 	}
 
-	return (sum);
+	return (amount);
 }
