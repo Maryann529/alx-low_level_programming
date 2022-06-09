@@ -2,12 +2,10 @@
 
 ## Description
 
-* What you should learn from this project:
+What you should learn from this project:
 
-What is a doubly linked list
-
+* What is a doubly linked list
 * How to use doubly linked lists
-
 * Start to look for the right source of information without too much help
 
 ### [0. Print list](./ 0-print_dlistint.c)
