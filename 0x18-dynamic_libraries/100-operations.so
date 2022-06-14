@@ -8,6 +8,7 @@ int mod(int a, int b);
 
 int add(int a, int b)
 {
+<<<<<<< HEAD
 return a + b;
 }
 
@@ -29,4 +30,27 @@ return a / b;
 int mod(int a, int b);
 {
 return a % b;
+=======
+    return a + b;
+}
+
+int sub(int a, int b)
+{
+    return a - b;
+}
+
+int mul(int a, int b)
+{
+    return a * b;
+}
+
+int div(int a, int b)
+{
+    return a / b;
+}
+
+int mod(int a, int b)
+{
+    return a % b;
+>>>>>>> 9802a6df487a04d721bccd053ecb2f4aab144c85
 }
