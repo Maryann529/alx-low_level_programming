@@ -17,7 +17,7 @@ char *hash_chain_get(const hash_node_t *head, const char *key)
 
 		return (head->value);
 	}
-	return (NULL)
+	return (NULL);
 }
 
 /**
