@@ -1,0 +1,26 @@
+# Makefile for school, version 1.0
+
+NAME = school
+
+CC = gcc
+CFLAGS = -Wall -Werror -Wextra -pedantic
+SRC = main.c school.c
+OBJ = $(patsubst %.c, %.o, $(SRC))
+HEADERS = m.h
+
+TMPFILES = *~
+
+.PHONY: all clean oclean fclean re
+
+all: $(HEADERS) $(OBJ)
+	$(CC) $? -o $(NAME)
+
+clean:
+	$(RM) $(NAME) $(TMPFILES)
+
+oclean:
+	$(RM) $(OBJ)
+
+fclean: clean oclean
+
+re: oclean all
