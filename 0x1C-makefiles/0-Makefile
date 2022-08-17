@@ -1,11 +1,11 @@
-# Makefile for holberton, version 0.0.1
+# Makefile for school, version 0.0.1
 
 NAME = school
 
 CC = gcc
 #CFLAGS = -Wall -Werror -Wextra -pedantic
-OBJ = holberton.o main.o
-SRC = holberton.c main.c
+OBJ = school.o main.o
+SRC = school.c main.c
 
 RM = rm -f
 
