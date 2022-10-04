@@ -31,10 +31,10 @@ static void print_array(int *array, size_t lo, size_t hi)
 static int _binary_search(int *array, size_t lo, size_t hi, int value)
 {
 	size_t mid = (lo + hi) / 2;
-	
+
 	if (lo > hi)
 		return (-1);
-	
+
 	print_array(array, lo, hi);
 	if (array[mid] < value)
 		return (_binary_search(array, mid + 1, hi, value));
